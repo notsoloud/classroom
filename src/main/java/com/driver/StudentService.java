@@ -32,7 +32,6 @@ public class StudentService {
     }
 
     public List<String> findStudentsFromTeacher(String teacher){
-        System.out.println(teacher);
         return studentRepository.findStudentsFromTeacher(teacher);
     }
 
